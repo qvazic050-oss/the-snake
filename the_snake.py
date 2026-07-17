@@ -1,7 +1,6 @@
 """Реализация игры "Змейка" на Pygame."""
 
 from random import randint
-
 import pygame
 
 SCREEN_WIDTH, SCREEN_HEIGHT = 640, 480
@@ -42,7 +41,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
 
-pygame.display.set_caption("Змейка")
+pygame.display.set_caption('Змейка')
 
 clock = pygame.time.Clock()
 
@@ -195,7 +194,7 @@ def handle_keys(game_object):
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
-            raise SystemExit("Игра завершена пользователем.")
+            raise SystemExit('Игра завершена пользователем.')
 
         if event.type == pygame.KEYDOWN:
             key = event.key
