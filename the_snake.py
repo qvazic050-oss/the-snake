@@ -1,8 +1,8 @@
-"""Реализация игры «Змейка» на Pygame."""
+"""Реализация игры "Змейка" на Pygame."""
 
 from random import randint
-import pygame
 
+import pygame
 
 SCREEN_WIDTH, SCREEN_HEIGHT = 640, 480
 GRID_SIZE = 20
@@ -42,7 +42,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
 
-pygame.display.set_caption('Змейка')
+pygame.display.set_caption("Змейка")
 
 clock = pygame.time.Clock()
 
