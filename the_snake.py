@@ -1,7 +1,6 @@
 """Реализация игры «Змейка» на Pygame."""
 
 from random import randint
-
 import pygame
 
 
