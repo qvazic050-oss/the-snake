@@ -1,6 +1,7 @@
 """Реализация игры "Змейка" на Pygame."""
 
 from random import randint
+
 import pygame
 
 SCREEN_WIDTH, SCREEN_HEIGHT = 640, 480
